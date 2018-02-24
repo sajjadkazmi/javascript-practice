@@ -219,32 +219,54 @@
 //    }
 
 
-var a=+prompt("Enter marks of obtained in 3 subjects","Enter");
-var b=+prompt("Enter total marks of 3 subjects","Enter");
+// var a=+prompt("Enter marks of obtained in 3 subjects","Enter");
+// var b=+prompt("Enter total marks of 3 subjects","Enter");
 
-var z=((a/b)*100);
-document.write("<br>your total marks " +a);
-document.write("<br>your obtained marks " +b);
+// var z=((a/b)*100);
+// document.write("<br>your total marks " +a);
+// document.write("<br>your obtained marks " +b);
 
-document.write("<br>your percentage is % " +z);
-if(z>=80 && z<=100)
-{
-    document.write("<br>Your Grade is A+");
-}
-if(z>=70 && z<=79)
-{
-    document.write("<br>Your Grade is B");
-}
-if(z>=60 && z<=69)
-{
-    document.write("<br>Your Grade is C");
-}
-if(z>=50 && z<=59)
-{
-    document.write("<br>Your Grade is D");
-}
-else(z>=0 && z<=49)
-{
-    document.write("<br>Sorry you have failed");
-}
+// document.write("<br>your percentage is % " +z);
+// if(z>=80 && z<=100)
+// {
+//     document.write("<br>Your Grade is A+");
+// }
+// if(z>=70 && z<=79)
+// {
+//     document.write("<br>Your Grade is B");
+// }
+// if(z>=60 && z<=69)
+// {
+//     document.write("<br>Your Grade is C");
+// }
+// if(z>=50 && z<=59)
+// {
+//     document.write("<br>Your Grade is D");
+// }
+// else(z>=0 && z<=49)
+// {
+//     document.write("<br>Sorry you have failed");
+// }
+
+
+
+// var a=+prompt("enter 1st number");
+// var b=+prompt("enter 2nd number");
+// var c=prompt("enter what to do <br> a for add <br> s for subtract <br> d for divide <br> m for multiply");
+// var d=a+b;
+// var e=a-b;
+// var f=a/b;
+// var g=a*b;
+// if (c=="a"){
+//     alert("your ans is"+d);
+// }
+// if (c=="s"){
+//     alert("your ans is"+e);
+// }
+// if (c=="d"){
+//     alert("your ans is"+f);
+// }
+// if (c=="m"){
+//     alert("your ans is"+g);
+// }
 
